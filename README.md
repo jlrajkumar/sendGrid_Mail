@@ -7,5 +7,6 @@ Add **keys.env** file in your local repo and update it with SENDGRID_API_KEY=SG.
 ### Steps to run 
 Open terminal in your project directory
 Run command *__npm install__* to download all dependencies.
-Run *__npm run dev__ *
+
+Run *__npm run dev__* to run the functionality. 
 
