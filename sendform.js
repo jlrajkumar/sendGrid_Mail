@@ -16,7 +16,7 @@ to: 'jlrkumarjaddu@gmail.com', // Change to your recipient HR@COMPANY.COM
 from: 'lakshman.jaddu@gmail.com', // Change to your verified sender
 subject: 'A new contact form has submitted on your website',
 //`Name : {outputmsg.Name } , Phone: {outputmsg.Phone}, Email:{outputmsg.Email}, Message:{outputmsg.Message}`,
-text: 'A new form has submitted by a new user TESTING',
+text: 'Add your data here, also you can ADD html format below: TESTING',
 
 };
 
