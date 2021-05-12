@@ -18,13 +18,14 @@ subject: 'A new contact form has submitted on your website',
 //`Name : {outputmsg.Name } , Phone: {outputmsg.Phone}, Email:{outputmsg.Email}, Message:{outputmsg.Message}`,
 text: 'Add your data here, also you can ADD html format below: TESTING',
 
+
 };
 
 sgMail
     .send(msg)
     .then(() => {
     console.log('Email sent Successfully')
-    console.log(msg);
+    //console.log(msg);
     })
     .catch((error) => {
     console.error(error)
