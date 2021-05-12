@@ -1,0 +1,30 @@
+{
+  "name": "sendgrid_mail",
+  "version": "1.0.0",
+  "description": "Send Emails using SendGrid API",
+  "main": "sendform.js",
+  "scripts": {
+    "dev": "node sendform.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlrajkumar/sendGrid_Mail.git"
+  },
+  "keywords": [
+    "sendmail",
+    "sendemail",
+    "sendform",
+    "sendgrid"
+  ],
+  "author": "JLRAJKUMAR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlrajkumar/sendGrid_Mail/issues"
+  },
+  "homepage": "https://github.com/jlrajkumar/sendGrid_Mail#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  }
+}
