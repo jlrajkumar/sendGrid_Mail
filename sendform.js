@@ -9,12 +9,6 @@ const app = express();
 
 
 //Mail Functionality
-app.post('/submit',(req, res)=>{
-   // res.render('thanks.html');
-   console.log(req.body);
-}
-
-)
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
     
 const msg = {
@@ -25,13 +19,14 @@ subject: 'A new contact form has submitted on your website',
 text: 'A new form has submitted by a new user TESTING',
 
 };
+
 sgMail
-.send(msg)
-.then(() => {
-console.log('Email sent')
-console.log(msg);
-})
-.catch((error) => {
-console.error(error)
-})
+    .send(msg)
+    .then(() => {
+    console.log('Email sent Successfully')
+    console.log(msg);
+    })
+    .catch((error) => {
+    console.error(error)
+    })
 
